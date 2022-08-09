@@ -3,7 +3,8 @@ package leetcode;
 import java.util.Arrays;
 
 /**
- * https://leetcode.com/problems/valid-anagram/
+ * @link: https://leetcode.com/problems/valid-anagram/
+ * @difficulty: EASY
  */
 public class T242_ValidAnagram {
     public boolean isAnagram(String s, String t) {
