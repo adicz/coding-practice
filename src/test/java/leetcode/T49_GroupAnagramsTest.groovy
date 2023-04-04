@@ -10,8 +10,8 @@ class T49_GroupAnagramsTest extends Specification {
         when:
         def result = service.groupAnagrams(strs as String[])
 
-        result.sort().forEach(element -> element.sort())
-        expectedResult.sort().forEach(element -> element.sort())
+        result.sort().forEach({ element -> element.sort() })
+        expectedResult.sort().forEach({ element -> element.sort() })
 
         then:
         result.size() == expectedResult.size()
