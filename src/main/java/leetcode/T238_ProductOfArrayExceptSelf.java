@@ -1,7 +1,5 @@
 package leetcode;
 
-import java.util.Arrays;
-
 /**
  * @link: https://leetcode.com/problems/product-of-array-except-self/
  * @difficulty: MEDIUM
