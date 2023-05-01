@@ -14,8 +14,9 @@ class T125_ValidPalindromeTest extends Specification {
         result == expectedResult
 
         where:
-        text || expectedResult
+        text                             || expectedResult
         "A man, a plan, a canal: Panama" || true
-        "race a car" || false
+        "race a car"                     || false
+        "0P"                             || false
     }
 }
