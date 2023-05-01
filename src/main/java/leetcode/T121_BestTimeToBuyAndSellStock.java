@@ -1,5 +1,9 @@
 package leetcode;
 
+/**
+ * @link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+ * @difficulty: EASY
+ */
 public class T121_BestTimeToBuyAndSellStock {
     public int maxProfit(int[] prices) {
         if (prices.length == 0) return 0;
