@@ -3,6 +3,9 @@ package coderbyte;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * @difficulty: MEDIUM
+ */
 public class ArrayChallenge {
 
     public static int ArrayChallenge(int[] arr) {

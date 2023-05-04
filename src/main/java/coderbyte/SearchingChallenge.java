@@ -2,6 +2,9 @@ package coderbyte;
 
 import java.util.*;
 
+/**
+ * @difficulty: EASY
+ */
 public class SearchingChallenge {
     public static String SearchingChallenge(String str) {
         final String[] splitWords = str.split(" ");
